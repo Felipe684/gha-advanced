@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Hellp step
-        run: echo "welcome to gha"
+        run: echo "welcome to gha-2"
       
       
