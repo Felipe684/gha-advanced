@@ -3,10 +3,15 @@
 name: hello
 on: workflow_dispatch
 jobs: 
-  hello: 
+  build: 
     runs-on: ubuntu-latest
     steps: 
-      - name: Hellp step
-        run: echo "welcome to gha-2"
+      - name: build step
+        run: echo "demo build"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test phse
+        run: echo "running test"
       
       
